@@ -16,5 +16,8 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := X00R_defconfig
 
+# Display
+TARGET_SCREEN_DENSITY := 380
+
 # Inherit the proprietary files
 -include vendor/asus/X00R/BoardConfigVendor.mk
