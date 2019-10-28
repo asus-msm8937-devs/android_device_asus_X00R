@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/asus/X00R
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Kernel
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := X00R_defconfig
