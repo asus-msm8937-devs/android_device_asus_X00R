@@ -10,6 +10,7 @@
 DEVICE_PATH := device/asus/X00R
 
 # Kernel
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := X00R_defconfig
 
 # Inherit the proprietary files
