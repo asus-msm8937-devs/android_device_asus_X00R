@@ -9,3 +9,7 @@ $(call inherit-product, device/asus/msm8937-common/msm8937.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/asus/X00R/X00R-vendor.mk)
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
