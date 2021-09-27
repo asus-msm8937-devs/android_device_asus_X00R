@@ -25,5 +25,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_X00R
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit the proprietary files
 -include vendor/asus/X00R/BoardConfigVendor.mk
