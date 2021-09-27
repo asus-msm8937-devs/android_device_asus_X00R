@@ -19,5 +19,9 @@ TARGET_KERNEL_CONFIG := X00R_defconfig
 # Display
 TARGET_SCREEN_DENSITY := 380
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_X00R
+TARGET_RECOVERY_DEVICE_MODULES := libinit_X00R
+
 # Inherit the proprietary files
 -include vendor/asus/X00R/BoardConfigVendor.mk
